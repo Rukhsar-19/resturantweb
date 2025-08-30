@@ -1,0 +1,107 @@
+.testimonials {
+    background-color: rgb(250,250,250);
+}
+.imageback{
+    position: relative;
+    z-index: 1;
+}
+.smilypos{
+    position: absolute;
+   
+   bottom: 173px;
+    left: -50px;
+    z-index: 2;
+}
+.pizzapos{
+    position: absolute;
+    right: 98px;
+    bottom: 164px;
+    z-index: 2;
+}
+
+/* tail */
+.bubble-with-tail {
+  position: relative;
+  background: rgb(255,255,255);
+  padding: 11px 20px;
+  border-radius: 20px;
+  max-width: 300px;
+  line-height: 1.4;
+  border-top-left-radius: 0; 
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 9px;
+       right: 157px;
+  font-size: 12px;
+  color: #202020;
+  font-weight: bold;
+}
+
+.bubble-with-tail::before {
+    content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  
+  border: 12px solid transparent;
+  border-bottom-color: rgb(255,255,255);  
+  border-top: 0;
+  border-left: 0;
+
+  border-right: 20px solid transparent;
+  margin-top: -10px;
+  margin-left: 0;
+
+  border-radius: 13px 0 0 0;
+}
+/* parent class for testright  */
+.testright{
+      
+      margin-top: 150px;
+      display: flex
+;
+    flex-direction: column;
+    justify-content: center;
+   
+  
+}
+
+.girlstest{
+    margin-left: -11px;
+}
+.testpics{
+    width:23%
+}
+.testlastparent{
+    display: flex;
+    gap: 1s0px;
+}
+.testlasth{
+    font-size: 15px;
+    color: #000000;
+    text-align: center;
+}
+.testratefav{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.favparagraph{
+    font-size: 12px;
+    color: #807E7E;
+}
+.coutomerwidth{
+    width: 110%; 
+      
+}
+
+.coustomerreview{
+        margin: 26px 0px;
+         
+}
+.imageback img{
+    width: 75%;
+}

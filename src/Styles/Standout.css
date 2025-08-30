@@ -1,0 +1,127 @@
+.standout {
+    background-color: rgb(250, 250, 250);
+}
+
+.buttonsround {
+    border-radius: 50%;
+    width: 45px;
+    background: #EFEFEF;
+    padding: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsround i {
+    font-size: 20px;
+    color: #6F6E6E;
+    font-weight: bold;
+}
+
+.parentswiperbtn {
+    display: flex;
+    justify-content: flex-end;
+
+    margin-top: 64px;
+}
+
+.activecolor {
+    background-color: #39DB4A;
+}
+
+.activecolor i {
+    color: white;
+}
+
+.buttongap {
+    display: flex;
+    gap: 20px;
+}
+
+.dishesback {
+    background: #ffff;
+    border-radius: 20px;
+    padding: 27px;
+    border-top-right-radius: 18px;
+    position: relative;
+}
+
+.dollarsign {
+    color: #FF6868;
+    font-size: 15px;
+}
+
+.pricefav {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.fav {
+    color: #454545;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.dishimage {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.dishimage img {
+    width: 60%;
+}
+
+.disheshead {
+    font-size: 15px;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.dishesdesc {
+    font-size: 12px;
+    color: #555555;
+}
+
+.dishesprice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.starsdish {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+
+
+.label-with-heart {
+    width: 46px;
+    height: 46px;
+    background-color: #39DB4A;
+    border-radius: 0 50% 0% 50%;
+    position: absolute;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 0;
+}
+
+.heart-icon {
+    color: white;
+    font-size: 14px;
+
+}
+
+.standoutmain {
+    margin-bottom: 56px;
+ 
+}

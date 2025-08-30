@@ -1,0 +1,55 @@
+.ourjourney{
+    background-color: rgb(250,250,250);
+}
+.journeypara{
+    margin:20px 0;
+    
+}
+.gapspace{
+    margin-bottom: 18px;
+}
+.serviceparent{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+     /* align-items: center;  */
+}
+ .clinicalhead{
+    width: 120%;
+} 
+.serviceback{
+        background-color: #fff;
+    width: 175px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 7px 12px 43px rgba(0, 0, 0, 0.14);
+}
+.servicehead{
+    font-size: 15px;
+    margin-top: 17px;
+    color: #5FE26C;
+    font-weight: bold;
+}
+.servicepara{
+    font-size: 12px;
+    text-align: center;
+    color: #90BD95;
+}
+.namesservice{
+    text-align: center;
+}
+.serviceimg{
+    text-align: center;
+}
+.firstrowparent{
+    display: flex;
+       gap: 42px;
+    margin-bottom: 42px;
+    justify-content: flex-end;
+}
+.secondrowparent{
+    display: flex;
+            gap: 42px;
+    margin-bottom: 42px;
+        justify-content: flex-end;
+}

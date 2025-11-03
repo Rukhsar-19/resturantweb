@@ -66,14 +66,14 @@
 
 .dishimage {
     display: flex;
-height: 400px;
+height: 350px;
     justify-content: center;
     align-items: center;
 }
 
 .dishimage img {
-        width: 80%;
-    height: 60%;
+        width: 100%;
+    height: 80%;
 }
 
 .disheshead {

@@ -1,0 +1,81 @@
+/* Contact form parent container */
+.contact__form {
+  max-width: 500px;
+  background-color: #fafafa;
+  padding: 25px 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #333;
+}
+
+/* Heading and paragraph */
+.contact__form h1 {
+  text-align: center;
+  color: #39db4a;
+  margin-bottom: 10px;
+}
+
+.contact__form p {
+  text-align: center;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+/* Labels */
+.contact__form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+/* Inputs and textarea */
+.contact__form input,
+.contact__form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #fff;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.contact__form input:focus,
+.contact__form textarea:focus {
+  border-color: #39db4a;
+  box-shadow: 0 0 5px rgba(57, 219, 74, 0.2);
+}
+
+/* Textarea size */
+.contact__form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Submit button */
+.contact__form button {
+  width: 100%;
+  background-color: #39db4a;
+  color: #fafafa;
+  border: none;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.contact__form button:hover {
+  background-color: #2ec43f;
+}
+
+/* Optional spacing between form elements */
+.contact__form div {
+  margin-bottom: 15px;
+}

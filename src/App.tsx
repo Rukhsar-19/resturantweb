@@ -6,12 +6,12 @@ import 'remixicon/fonts/remixicon.css'
 import Header from './Components/Header';
 import Hero from './Components/Hero';
 import Categories from './Components/Categories';
-import Standout from './Components/Standout';
 import Testimonials from './Components/Testimonials';
 import Ourjourney from './Components/Ourjourney';
 import Footer from './Components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import StandoutScreen from './Screens/StandoutScreen';
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
       <Header />
       <Hero />
       <Categories />
-      <Standout />
+      <StandoutScreen />
       <Testimonials />
       <Ourjourney />
       <Footer />

@@ -18,7 +18,9 @@
 .backcircle img {
     width: 150px;
 }
-
+.mySwiper .swiper-wrapper{
+    display: flex;
+}
 
 .whiteback {
 

@@ -6,12 +6,12 @@ export interface IRestaurant {
   parkingLot: boolean;
 }
 
-export interface IMenu{
-    itemID:          number;
-    itemName:        string;
-    itemDescription: string;
-    itemPrice:       number;
-    restaurantName:  string;
-    restaurantID:    number;
-    imageUrl:        string;
+export interface IMenu {
+  itemID: number;
+  itemName: string;
+  itemDescription: string;
+  itemPrice: number;
+  restaurantName: string;
+  restaurantID: number;
+  imageUrl: string;
 }

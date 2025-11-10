@@ -45,7 +45,7 @@ const ContactModal = (props: Props) => {
                 onBlur={formik.handleBlur}
               />
               {formik.touched.name && formik.errors.name && (
-                <small className="error-text">{formik.errors.name}</small>
+                <small className="error-text" style={{ color: "red" }}>{formik.errors.name}</small>
               )}
             </div>
 
@@ -61,7 +61,7 @@ const ContactModal = (props: Props) => {
                 onBlur={formik.handleBlur}
               />
               {formik.touched.email && formik.errors.email && (
-                <small className="error-text">{formik.errors.email}</small>
+                <small className="error-text" style={{ color: "red" }}>{formik.errors.email}</small>
               )}
             </div>
 
@@ -77,7 +77,7 @@ const ContactModal = (props: Props) => {
                 onBlur={formik.handleBlur}
               />
               {formik.touched.subject && formik.errors.subject && (
-                <small className="error-text">{formik.errors.subject}</small>
+                <small className="error-text" style={{ color: "red" }}>{formik.errors.subject}</small>
               )}
             </div>
 
@@ -92,7 +92,7 @@ const ContactModal = (props: Props) => {
                 onBlur={formik.handleBlur}
               />
               {formik.touched.message && formik.errors.message && (
-                <small className="error-text">{formik.errors.message}</small>
+                <small className="error-text" style={{ color: "red" }}>{formik.errors.message}</small>
               )}
             </div>
 

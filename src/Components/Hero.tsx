@@ -25,7 +25,6 @@ const Hero = () => {
                 <div className="circlebtnicon">
                   <button className="circlebtn"><i className="ri-play-large-fill"></i></button>
                 </div>
-
               </div>
             </div>
 
@@ -40,15 +39,12 @@ const Hero = () => {
                   Hot spicy Food 🌶️
                   <span className="tail"></span>
                 </div>
-
-
               </div>
               {/* right side labels */}
               <div className="rightlabelparent">
                 <div className="labelback">
                   <div className="imagecontainer">
                     <img src={rightlabel1} width={60} height={50} />
-
                     <div className="headlabel">
                       <h2 className="headheroright">Spicy noodles</h2>
                       <div className="stars">
@@ -60,7 +56,6 @@ const Hero = () => {
                       </div>
                       <div className="labelpara">
                         <p className="dollar">$<span className='labelparalast'>18.00</span></p>
-
                       </div>
                     </div>
                   </div>

@@ -4,7 +4,7 @@ import { apiRequest } from "./NetworkService";
 
 export const restaurantService = async () => {
   let endPoint = ApiNames.Restaurant;
-  let { data }: { data: IRestaurant } = await apiRequest(endPoint, "GET");
+  let { data }: { data: IRestaurant[]} = await apiRequest(endPoint, "GET");
   return data;
 };
 

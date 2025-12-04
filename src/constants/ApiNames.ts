@@ -1,4 +1,4 @@
 export const ApiNames = {
-  Restaurant: "/api/Restaurant",
-  Menu: "/api/Restaurant/5/menu",
+  Restaurant: "/Restaurant",
+  Menu: "/Restaurant/5/menu",
 };

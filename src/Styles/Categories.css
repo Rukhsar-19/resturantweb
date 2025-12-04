@@ -18,12 +18,10 @@
 .backcircle img {
     width: 150px;
 }
-.mySwiper .swiper-wrapper{
+/* .mySwiper .swiper-wrapper{
     display: flex;
-}
-
+} */
 .whiteback {
-
     /* width: 200px;
     height: 220px; */
     background: #ffff;

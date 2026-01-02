@@ -13,6 +13,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import StandoutScreen from './Screens/StandoutScreen';
 import CategoriesScreen from './Screens/CategoriesScreen';
+import TodoScreen from './Screens/TodoScreen';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
     <>
       <Header />
       <Hero />
+      <TodoScreen />
       <CategoriesScreen />
       <StandoutScreen />
       <Testimonials />

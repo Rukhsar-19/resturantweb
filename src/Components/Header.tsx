@@ -38,9 +38,8 @@ const Header = () => {
                                 <div className="headercenter">
                                     <ul className="headlist">
                                         <li><a href="#" className="activelink">Home</a></li>
-                                        <li className="dropdownlink"><a href="#">Menu</a>
-                                            <i className="ri-arrow-drop-down-line"></i></li>
-                                        <li className="dropdownlink"><a href="#">Services</a> <i className="ri-arrow-drop-down-line"></i></li>
+                                        <li><a href="#">Menu</a></li>
+                                        <li><a href="#">Services</a></li>
                                         <li><a href="#">Offers</a></li>
                                     </ul>
                                 </div>

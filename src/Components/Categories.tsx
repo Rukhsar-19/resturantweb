@@ -5,7 +5,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 //  import { Navigation } from 'swiper/modules';
 import bb from "../Assests/bb.webp";
 
-
 interface Props {
     result: any[]
 }
@@ -66,5 +65,4 @@ const Categories = (props: Props) => {
         </section>
     )
 }
-
-export default Categories
+export default Categories;
